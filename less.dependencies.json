@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "extract-text-webpack-plugin": "latest",
+    "css-loader": "latest",
+    "less": "latest",
+    "less-loader": "latest",
+    "style-loader": "latest"
+  }
+}

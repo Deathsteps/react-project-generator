@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-router": "latest",
+    "react-router-redux": "latest"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "[name]",
+  "version": "0.1.0",
+  "description": "A react project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch --config webpack.config.js",
+    "release": "find ./project/dist/ -name *.bundle.js | xargs rm && find ./project/dist/ -name *.main.css | xargs rm && webpack --config webpack.config.release.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "[rep_url]"
+  },
+  "author": "Deathsteps",
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "latest",
+    "babel-preset-stage-2": "latest",
+    "eslint-plugin-react": "latest",
+    "webpack": "latest"
+  }
+}

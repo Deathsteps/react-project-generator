@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "react-redux": "latest",
+    "redux": "latest",
+    "redux-logger": "latest",
+    "redux-thunk": "latest"
+  }
+}

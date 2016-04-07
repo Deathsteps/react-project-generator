@@ -1,0 +1,27 @@
+{
+  "name": "react-project-generator",
+  "version": "0.1.0",
+  "description": "A react project generator.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deathsteps/react-project-generator.git"
+  },
+  "keywords": [
+    "react",
+    "project",
+    "generator"
+  ],
+  "author": "Deathsteps",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Deathsteps/react-project-generator/issues"
+  },
+  "homepage": "https://github.com/Deathsteps/react-project-generator#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
